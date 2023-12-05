@@ -53,7 +53,8 @@ const index = () => {
             src={bgimage}
             alt='farm image' 
             layout='fill'
-            objectFit='cover'/>
+            objectFit='cover' 
+            className=''/>
             <div className='absolute inset-0 w-1/2 flex-col items-center self-center lg:w-full lg:text-center'>
             <motion.h1 
             variants={fadeIn('down', 0.2)}
