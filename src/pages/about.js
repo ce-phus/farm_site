@@ -67,7 +67,7 @@ const about = () => {
 
       <div className='flex flex-col justify-end w-full pt-8 font-semibold grid gap-4 sm:gap-6 grid-cols-2 dark:text-light'>
         <div className='w-full dark:text-light md:col-span-4'>
-          <h1 className='text-dark text-dark font-bold text-4xl ss:text-[68px] ss:leading-[100px] sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl'>Diverse <span className='text-primary'>Crops.</span></h1>
+          <h1 className='text-dark dark:text-light text-dark font-bold text-4xl ss:text-[68px] ss:leading-[100px] sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl'>Diverse <span className='text-primary'>Crops.</span></h1>
           <p className='text-dark font-normal pt-4 dark:text-light'>
             At our farm, we believe in the value of divresity. We grow a variety of crops to provide our customers with unique and falvorful experience. By having a diverse range of crops, we are also able to promote biodiversity which is essential for a healthy ecosystem.
           </p>
@@ -83,7 +83,7 @@ const about = () => {
           <ImageCarousel images={images2}/>
         </div>
         <div className='md:col-span-4'>
-          <h1 className='text-dark font-bold text-4xl ss:text-[69px] pl-5'>Animal <span className='text-primary'>Welfare</span></h1>
+          <h1 className='text-dark  dark:text-light font-bold text-4xl ss:text-[69px] pl-5'>Animal <span className='text-primary'>Welfare</span></h1>
           <p className='font-normal text-dark dark:text-light pl-5'>
             We take great care to ensure that our livestock are raised in ahumane and healthy environment. Our animals are free-range and have access to pasture, which not only promotes their well-being but also results in healthier and more flavorful meat.
           </p>
@@ -91,8 +91,8 @@ const about = () => {
       </div>
       <div className='flex flex-col justify-end w-full pt-8 gap-4 sm:gap-6 grid-cols-2'>
         <div className='w-fill md:col-span-4'>
-          <h1 className='text-dark font-bold text-4xl sm:gap-6 dark:text-light'>Community <span className='text-primary'>Involvement.</span></h1>
-          <p className='text-dark fomt-normal pt-4 dark:text-light'>
+          <h1 className='text-dark font-bold dark:text-light text-4xl sm:gap-6 dark:text-light'>Community <span className='text-primary'>Involvement.</span></h1>
+          <p className='text-dark font-normal pt-4 dark:text-light'>
             We believe in the importance of connecting with our community and sharing our passion for sustainable agriculture. We offer farm tours, workshop and other events to educate and involve our community in the farm-to-table experience.By doing so, we hope to promote a greater understanding of where food comes from and the importance of supporting local agriculture
           </p>
         </div>
