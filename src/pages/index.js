@@ -40,7 +40,7 @@ const index = () => {
   return (
     <>
     <Head>
-    <title>Create Next App</title>
+    <title>OitiFarms</title>
         <meta name="description" content="Home" />
     </Head>
 
